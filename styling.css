@@ -1,0 +1,139 @@
+.background-container{
+    background-color: rgb(18, 30, 15);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.heading{
+    font-family:"Roboto";
+    font-size: 25px;
+    font-weight: 600;
+    color:rgb(200, 210, 170)
+}
+
+.my{
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: bold;
+    color:rgb(107, 142, 35);
+}
+
+.input-el{
+    border-radius: 4px;
+    border: 1px solid rgb(75, 83, 32);
+    background-color: rgba(30, 40, 25, 0.587);
+    color: rgb(200, 210, 170);
+    padding:7px;
+}
+
+.add-btn{
+    background-color: rgb(107, 142, 35);  
+    color: rgb(200, 210, 170);
+    border: 1px solid rgb(107, 142, 35);
+}
+.add-btn:hover{
+     background-color: rgb(107, 142, 35); 
+     transform: scale(1.05);
+}
+
+.todo-list{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:12px;
+    color:rgba(120, 130, 90);
+}
+
+.todo-list:hover{
+    transform: translateY(-3px);
+}
+
+.todo-list-item{
+    margin-bottom: 10px;
+    transition: all 0.25s ease;
+}
+
+.todo-list-item:hover{
+    transform: translate(-3px);
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+    margin-top:9px;
+    accent-color: rgb(107, 142, 35);
+}
+
+.checked{
+    text-decoration: line-through;
+    color:#aaa;
+    opacity: 0.5;
+}
+
+.label-container{ 
+    background-color: rgba(6, 6, 6, 0.247);
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    border-left: 3px solid rgb(107, 142, 35);
+    width:100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+}
+
+.label-container-background{
+    background-color:rgba(24, 24, 24, 0.438);
+
+}
+
+.label-el{
+    font-family:"Roboto";
+    font-size: 15px;
+    color: rgb(200, 210, 170);
+    margin-left: 10px;
+    margin-top: 5px;
+    width:90%;
+}
+
+.delete-container{
+    margin-left: 36px;
+}
+
+.delete-icon{
+    margin:5px;
+    padding: 5px;
+    color:rgb(90, 150, 30);
+}
+.delete-icon:hover{
+    color:rgb(125, 26, 26);
+    transform: scale(1.2);
+}
+
+.edit-btn{
+    font-family:Times, serif;
+    background-color: rgba(75, 95, 41, 0.527); 
+    color: rgb(200, 210, 170);
+    border: 1px solid rgb(120, 130, 90);
+    border-radius: 3px;
+    margin-top:10px;
+    margin-left: 12px;
+    height: 30px;
+    width:40px;
+
+}
+
+.edit-btn:hover{
+    background-color: rgba(143, 159, 100, 0.52);
+    transform: scale(1.05);
+}
+
+.store-btn {
+    background-color: rgb(85, 107, 47); 
+    color: rgb(200, 210, 170);
+    border: 1px solid rgb(120, 130, 90);
+}
+
+.store-btn:hover {
+    background-color: rgb(120, 130, 90);
+    transform: scale(1.05);
+}

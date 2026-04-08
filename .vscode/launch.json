@@ -1,0 +1,42 @@
+{
+    
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ],
+
+  "editor.suggest.showDocumentation": false,
+  "javascript.suggest.enabled": false,
+  "typescript.suggest.enabled": false,
+
+  "editor.hover.enabled": false,
+  "editor.suggest.showDetails": false,
+  "editor.parameterHints.enabled": false,
+  "editor.signatureHelp.enabled": false,
+
+  "editor.lightbulb.enabled": false,
+  "editor.inlayHints.enabled": "off",
+
+  "javascript.referencesCodeLens.enabled": false,
+  "typescript.referencesCodeLens.enabled": false,
+
+  "editor.quickSuggestions": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabCompletion": "on",
+
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+
+}
+
